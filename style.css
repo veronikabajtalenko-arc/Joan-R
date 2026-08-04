@@ -1,9 +1,4 @@
-/* --- Загальні налаштування --- */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -138,5 +133,5 @@ footer {
     font-size: 0.9rem;
     margin-top: 40px;
     border-top: 1px solid #e2e8f0;
-    background-color: ;
+    background-color: white;
 }
