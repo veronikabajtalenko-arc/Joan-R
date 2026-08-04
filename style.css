@@ -55,6 +55,8 @@ main, section:has(.book-card) {
     object-fit: cover; /* Вирівнює обкладинки за розміром без спотворення */
     border-radius: 8px;
     transition: transform 0.3s ease;
+    display: inline;
+
 }
 
 .book-card:hover img {
@@ -136,4 +138,5 @@ footer {
     font-size: 0.9rem;
     margin-top: 40px;
     border-top: 1px solid #e2e8f0;
+    background-color: ;
 }
