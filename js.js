@@ -1,4 +1,4 @@
-document.querySelector('.contact-form').addEventListener('submit', function (e) {
+document.querySelector('order-form').addEventListener('submit', function (e) {
     e.preventDefault();
     console.log('Ваш Email:', document.getElementById('user-text').value);
     console.log('Номер телефону:', document.getElementById('user-text').value);
