@@ -124,8 +124,8 @@ h3 {
   display: block;
 }
 .book-card img:hover{
-     width: 25%;
-    height: 95px;
+     width: 360%;
+    height: auto;
 }
 
 .book-card:hover {
