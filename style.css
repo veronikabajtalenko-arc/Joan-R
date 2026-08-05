@@ -1,10 +1,12 @@
-/* --- 1. Базові налаштування та скидання --- */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+header
+{
+    background-color: #2b6cb0;
+    color: #1a202c;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    height: 200px;
 
+}
 html {
     scroll-behavior: smooth;
 }
@@ -153,8 +155,9 @@ a {
 footer {
     text-align: center;
     padding: 30px 0 10px 0;
-    color: #a0aec0;
+    color: #1a202c;
     font-size: 0.85rem;
+    background-color: #2c5282;
 }
 
 /* --- 8. Адаптивність --- */
