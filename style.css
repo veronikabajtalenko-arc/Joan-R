@@ -39,7 +39,7 @@ button {
   width: auto;       /* кнопка підлаштується під текст */
 }
     button:hover{
-         background-color: #b5576d;
+         background-color: #813446;
     color: #e1d0d0;
       font-size: 21px;
     font-weight: 304;
