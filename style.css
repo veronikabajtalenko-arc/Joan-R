@@ -1,36 +1,42 @@
-display:flex {
+/* Рядок 1: замініть "display:flex" на зірочку "*" */
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-
-
-
-header
-{ width: 100%;
-    height: 200px;
-    color: #edecdb;
-    background-color: #e6748e;
-    text-align: center;
-    padding: 30px 20px;
-    margin: 0%;
-    box-sizing: border-box;
-    position: relative;
+/* Рядок 10: приберіть height: 200px */
+header {
+  width: 100%;
+  height: auto; /* тепер хедер буде сам розтягуватися під свій вміст */
+  color: #edecdb;
+  background-color: #e6748e;
+  text-align: center;
+  padding: 30px 20px;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
 }
 
-button{
-    background-color: #ffa3b9;
-    color: #ffffff;
-     border: none;
-    border-radius: 8px;
-    font-size: 17px;
-    font-weight: 300;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-    width: 30%;
-   
+.controls {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* відстань між кнопками */
+}
 
+/* Трохи зменшіть ширину кнопок, щоб вони не розтягувалися занадто сильно */
+button {
+  background-color: #ffa3b9;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  padding: 8px 20px; /* додасть зручні внутрішні відступи */
+  width: auto;       /* кнопка підлаштується під текст */
 }
     button:hover{
          background-color: #b5576d;
