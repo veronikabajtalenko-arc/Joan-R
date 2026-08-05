@@ -1,13 +1,10 @@
 header
-{
-    background-color: rgb(176, 43, 43);
-    color: #f8fafc;
-    text-align: center;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+{ width: 97%;
     height: 200px;
-    padding: 0%;
-    
-
+    color: #3f3127;
+    background-color: #6ae7d8;
+    text-align: center;
+    padding: 10px;
 }
 html {
     scroll-behavior: smooth;
@@ -155,11 +152,12 @@ a {
 
 /* --- 7. Підвал --- */
 footer {
+    width: 97%;
+    height: 100px;
+    color: #2b221b;
+    background-color: #53ada2;
     text-align: center;
-    padding: 0;
-    color: #c4aeae;
-    font-size: 0.85rem;
-    background-color:  rgb(112, 22, 22);
+    padding: 10px;
 }
 
 /* --- 8. Адаптивність --- */
