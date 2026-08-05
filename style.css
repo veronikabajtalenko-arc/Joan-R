@@ -110,20 +110,18 @@ h3 {
 
 
 .book-card {
-    border-radius: 12px;
-    padding: 12px;
-    display: flex;
- margin: 17px;
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
-      width: 20%;
-    height: 90px;
-    object-fit: cover;
-       align-items: center;
-    text-align: center;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-       flex-direction: column;
-        background: #ffffff;
+  
+  width: 150px; /* або % від батьківського блоку */
+  height: auto;
+
    
+}
+.book-card img {
+  width: 100%;       /* розтягує зображення на ширину картки */
+  max-width: 200px;  /* або інша підходяща ширина обкладинки */
+  height: auto;      /* зберігає правильні пропорції (щоб не плющило) */
+  object-fit: contain; /* запобігає спотворенню малюнка */
+  display: block;
 }
 .book-card img:hover{
      width: 25%;
