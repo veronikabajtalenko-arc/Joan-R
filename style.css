@@ -126,6 +126,21 @@ h3 {
   
 
 }
+.book-card img{
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+      width: 20%;
+    height: 90px;
+    object-fit: cover;
+   
+}
+.book-card img:hover{
+     width: 25%;
+    height: 95px;
+}
 
 .book-card:hover {
     transform: translateY(-4px);
