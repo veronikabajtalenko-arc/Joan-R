@@ -135,6 +135,7 @@ h3 {
       width: 20%;
     height: 90px;
     object-fit: cover;
+     align-items: center;
    
 }
 .book-card img:hover{
