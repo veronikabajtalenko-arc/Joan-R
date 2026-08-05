@@ -123,10 +123,7 @@ h3 {
   object-fit: contain; /* запобігає спотворенню малюнка */
   display: block;
 }
-.book-card img:hover{
-     width: 100%;
-    height: auto;
-}
+
 
 .book-card:hover {
     transform: translateY(-4px);
