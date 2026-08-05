@@ -168,3 +168,7 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+.books {
+    padding: 10px;
+}
