@@ -6,7 +6,7 @@
 }
 
 .aboutAuthor{
-    max-width: 1000px;
+    max-width: 900px;
     margin: 40px auto;
     padding: 0% 20px;
 }
@@ -14,6 +14,11 @@
 line-height: 2;
 font-size: 16px;
 margin-bottom: 15px;
+
+}
+.aboutAuthor h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 /* Рядок 10: приберіть height: 200px */
