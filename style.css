@@ -34,7 +34,7 @@ button {
   font-size: 17px;
   font-weight: 300;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+ 
   padding: 8px 20px; /* додасть зручні внутрішні відступи */
   width: auto;       /* кнопка підлаштується під текст */
 }
