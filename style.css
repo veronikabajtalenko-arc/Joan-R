@@ -49,8 +49,8 @@ header {
 
 /* Трохи зменшіть ширину кнопок, щоб вони не розтягувалися занадто сильно */
 button {
-  background-color: #ffa3b9;
-  color: #ffffff;
+  background-color: #4d3d79;
+  color: #e0d8db;
   border: none;
   border-radius: 8px;
   font-size: 17px;
@@ -61,8 +61,8 @@ button {
   width: auto;       /* кнопка підлаштується під текст */
 }
     button:hover{
-         background-color: #c55d75;
-    color: #e1d0d0;
+         background-color: #5c4a8e;
+    color: #f4f1f2;
       font-size: 19px;
     font-weight: 302;
     }
