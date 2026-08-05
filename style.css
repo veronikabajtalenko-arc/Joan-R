@@ -222,7 +222,7 @@ a {
     width: 100%;
     padding: 14px;
     margin-top: 10px;
-    background-color: #2b6cb0;
+    background-color: #5c4a8e;
     color: #ffffff;
     border: none;
     border-radius: 8px;
@@ -233,7 +233,7 @@ a {
 }
 
 .pay-btn:hover {
-    background-color: #2c5282;
+    background-color: #4d3d79;
 }
 
 /* --- 7. Підвал --- */
