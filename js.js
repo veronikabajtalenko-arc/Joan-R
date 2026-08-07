@@ -1,8 +1,8 @@
 
 let textSize = 16;
 let isHightContrast = false;
-const increaseTextButton = document.getElementById(`pay-btn`);
-const increaseText = document.getElementById('toggleContrast');
+const increaseTextButton = document.getElementById(`increaseTextButton`);
+
 
 const toggleContrastButton = document.getElementById('toggleContrastButton');
 toggleContrastButton.onclick = function () {
