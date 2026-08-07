@@ -31,10 +31,10 @@ console.log(increaseTextButton)
 
 
 
-document.querySelector('pay-form').addEventListener('submit', function (e) {
+document.querySelector('.pay-form').addEventListener('submit', function (e) {
     e.preventDefault();
     console.log('Ваш Email:', document.getElementById('email').value);
-    console.log('Номер телефону:', document.getElementById('email').value);
+    console.log('Номер телефону:', document.getElementById('phone').value);
     alert('Чудово!Чекайте на повідомлення або дзвінок.');
 });
 function sharePage() {
