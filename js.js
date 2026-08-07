@@ -21,7 +21,7 @@ increaseTextButton.onclick = function () {
     textSize += 2;
     document.body.style.fontSize = textSize + 'px';
 }
-console.log(increaseTextButton)
+
 
 
 
@@ -33,8 +33,10 @@ console.log(increaseTextButton)
 
 document.querySelector('.pay-form').addEventListener('submit', function (e) {
     e.preventDefault();
-    console.log('Ваш Email:', document.getElementById('email').value);
-    console.log('Номер телефону:', document.getElementById('phone').value);
+    const emailValue = document.getElementById('email').value;
+    const phoneValue = document.getElementById('phone').value;
+    console.log('Ваш Email:', emailValue);
+    console.log('Номер телефону:', phoneValue);
     alert('Чудово!Чекайте на повідомлення або дзвінок.');
 });
 function sharePage() {
